@@ -118,23 +118,52 @@ p {
 }
 
 @media only screen and (min-width: 1440px) {
+  
     .container {
         display: flex;
         margin: 10%;
+        margin-bottom: 40px;
+        text-align: left;
     }
 
     .cards-container {
         display: flex;
+        margin: 10%;
+        margin-top: 30px;
+        
     }
 
     .card {
         margin: 20px;
+        padding: 10px;
     }
 
     .card:nth-child(2){
-        margin-top: 50px;
+        position: relative; top: 30px;
+        
+    }
+    .card:nth-child(3){
+        position: relative; top: 60px;
+        
     }
     .header{
-        width: 60%;
+        width: 30%;
     }
+    .rating{
+        width: 30%;
+        margin-left: 180px;
+        
+    }
+    .rate2:nth-child(2){
+        position: relative; left: 50px;
+    }
+    .rate3:nth-child(3){
+        position: relative; left: 100px;
+    }
+    body{
+        background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+        background-position: 0 0, bottom 100px right 0px;
+    }
+    
+
 }
